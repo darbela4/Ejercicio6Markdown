@@ -19,6 +19,7 @@ luis|3.5|25/12/1995
 
 # Porción de código Python
 
+
 # Cita
 >Por domótica, entendemos todas aquellas técnicas orientadas a la automatización inteligente de una vivienda, que integran la tecnología en los sistemas de seguridad, gestión energética, bienestar o comunicaciones.
 
