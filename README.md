@@ -19,11 +19,14 @@ luis|3.5|25/12/1995
 
 # Porción de código Python
 
- def self.search_and_persist(query='')
-    last_tweet = self.last_tweet(query)
-    results = Twitter.search(query, rpp:100, since_id: last_tweet.try(:id_str)).results
-    self.create_from_search_results(results, query)
- end
+nota1 = float(input("ingrese un nota 1 (35%):"))
+nota2 = float(input("ingrese un nota 2 (35%):"))
+nota3 = float(input("ingrese un nota 3 (30%):"))
+result=nota1*0.35+nota2*0.35+nota3*0.30
+if(result>=3):
+    print("Has ganado la materia con nota de: "+str(result))
+else:
+    print("Has perdido la materia")
 
 # Cita
 >Por domótica, entendemos todas aquellas técnicas orientadas a la automatización inteligente de una vivienda, que integran la tecnología en los sistemas de seguridad, gestión energética, bienestar o comunicaciones.
